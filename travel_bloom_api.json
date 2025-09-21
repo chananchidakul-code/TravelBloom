@@ -6,12 +6,12 @@
         "cities": [
           {
             "name": "Sydney, Australia",
-            "imageUrl": "https://chananchidak-5500.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/images/Sydney.jpg",
+            "imageUrl": "images/Sydney.jpg",
             "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
           },
           {
             "name": "Melbourne, Australia",
-            "imageUrl": "https://chananchidak-5500.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/images/Melbourne.jpg",
+            "imageUrl": "images/Melbourne.jpg",
             "description": "A cultural hub famous for its art, food, and diverse neighborhoods."
           }
         ]
@@ -22,12 +22,12 @@
         "cities": [
           {
             "name": "Tokyo, Japan",
-            "imageUrl": "https://chananchidak-5500.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/images/Tokyo.jpg",
+            "imageUrl": "images/Tokyo.jpg",
             "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
           },
           {
             "name": "Kyoto, Japan",
-            "imageUrl": "https://chananchidak-5500.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/images/Kyoto.jpg",
+            "imageUrl": "images/Kyoto.jpg",
             "description": "Known for its historic temples, gardens, and traditional tea houses."
           }
         ]
@@ -38,12 +38,12 @@
         "cities": [
           {
             "name": "Rio de Janeiro, Brazil",
-            "imageUrl": "https://chananchidak-5500.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/images/riodejaneiro.jpg",
+            "imageUrl": "images/riodejaneiro.jpg",
             "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
           },
           {
             "name": "SÃ£o Paulo, Brazil",
-            "imageUrl": "https://chananchidak-5500.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/images/saopaulo.jpg",
+            "imageUrl": "images/saopaulo.jpg",
             "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
           }
         ]
@@ -53,13 +53,13 @@
       {
         "id": 1,
         "name": "Angkor Wat, Cambodia",
-        "imageUrl": "https://chananchidak-5500.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/images/AngkorWat.jpg",
+        "imageUrl": "images/AngkorWat.jpg",
         "description": "A UNESCO World Heritage site and the largest religious monument in the world."
       },
       {
         "id": 2,
         "name": "Taj Mahal, India",
-        "imageUrl": "https://chananchidak-5500.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/images/TajMahal.jpg",
+        "imageUrl": "images/TajMahal.jpg",
         "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
       }
     ],
@@ -67,13 +67,13 @@
       {
         "id": 1,
         "name": "Bora Bora, French Polynesia",
-        "imageUrl": "https://chananchidak-5500.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/images/BoraBora.jpg",
+        "imageUrl": "images/BoraBora.jpg",
         "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
       },
       {
         "id": 2,
         "name": "Copacabana Beach, Brazil",
-        "imageUrl": "https://chananchidak-5500.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/images/CopacabanaBeach.jpg",
+        "imageUrl": "images/CopacabanaBeach.jpg",
         "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
       }
     ]
