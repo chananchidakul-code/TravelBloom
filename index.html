@@ -1,8 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta http-equiv="refresh" content="0; URL='Travel_Bloom.html'" />
+  <title>TravelBloom</title>
+  <style>
+    body {
+        background-image: url('https://chananchidak-5500.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/images/TravelBloom_background.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 100vh;
+        color: white;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    nav {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 15px 0;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    
+    main {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 100px 20px 40px;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 1.6;
+        max-width: 700px;
+    }
+  </style>
 </head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact Us</a>
+    <input type="text" id="searchInput" placeholder="Search recommendations..." />
+    <button id="searchBtn">Search</button>
+    <button id="clearBtn">Clear</button>
+  </nav>
+
+  <h1>Explore Dream Destination</h1>
+  <p>it encourages exploration of unfamiliar territories,
+    embracing diverse cultures and landscapes, while pursuing the desired destination
+     that captivates the heart and ignites a sense of wonder.</p>
+
+  <div id="recommendations"></div>
+  <script src="travel_bloom.js"></script>
 </body>
 </html>
